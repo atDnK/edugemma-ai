@@ -1,2 +1,2 @@
 # edugemma-ai
-Offline educational assistant powered by Google's Gemma model
+Offline TOEFL iBT and Academic Assistant powered by Google's Gemma model
