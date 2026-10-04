@@ -13,15 +13,16 @@
 
 ---
 
-## 🛠️ Tech Stack & Setup
-
-- **Model:** Google Gemma 2 (2B)
-- **Local Runtime:** Ollama
-- **Frontend UI:** AnythingLLM / Chatbox / Page Assist
-
 ### How to Run Locally
 
 1. Install [Ollama](https://ollama.com).
 2. Pull the Gemma 2 model in your terminal:
-   ```bash
-   ollama run gemma2:2b
+   `ollama run gemma2:2b`
+3. Load the custom system prompt from `Modelfile` into your preferred local Web UI or create a custom Ollama model:
+   `ollama create toeflgemma -f Modelfile`
+
+---
+
+## 📄 License & Community
+
+Built as part of the **Hacktoberfest 2026 Weekend Challenge: Build for a Friend**. Open-source under the MIT License.
